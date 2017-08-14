@@ -1,11 +1,11 @@
-title : Go template
+title : Getting Started with Go
 
 # Table of content
 plan:
   - title: Welcome # Set the page title (only displayed if your contribution has several pages)
     statement: markdowns/welcome.md # Set the file path to the page content
-#  - title: Another Page
-#    statement: markdowns/another-page.md
+  - title: Basics of Go
+    statement: markdowns/basics-of-go.md
 
 
 # Settings for your programming projects and the associated Docker images
