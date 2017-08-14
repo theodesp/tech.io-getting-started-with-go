@@ -6,6 +6,12 @@ plan:
     statement: markdowns/welcome.md # Set the file path to the page content
   - title: Basics of Go
     statement: markdowns/basics-of-go.md
+  - title: Structs and interfaces
+    statement: markdowns/basics-of-go.md
+  - title: Concurrency and Goroutines
+    statement: markdowns/concurrency-and-goroutines.md
+  - title: Next steps
+    statement: markdowns/next-steps.md
 
 
 # Settings for your programming projects and the associated Docker images
