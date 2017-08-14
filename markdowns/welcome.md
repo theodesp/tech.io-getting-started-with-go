@@ -19,3 +19,11 @@ What we will do in this tutorial:
 Source code
 ===
 The source code of this tutorial is on [GitHub](theodesp/playground-2zqMV9Np), please feel free to come up with proposals to improve it.
+
+Quiz time
+===
+?[What is the official website of Go?]
+-[ ] go.com
+-[ ] golang.com
+-[x] golang.org
+-[ ] golanguage.org
