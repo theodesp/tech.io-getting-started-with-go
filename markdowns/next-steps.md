@@ -4,7 +4,7 @@ Ok I hope that you got a nice taste of Go.
 Below are some resources to continue learning and playing with Go:
 
 Online resources
----
+===
 * [Official Site](https://golang.org/) -- The official site of Go.
 * [Golang Weekly](https://golangweekly.com/) -- Subscribe here to get the latest news straight to your Mailbox.
 * [Go by Example](https://gobyexample.com/) -- A collection of tutorials suitable for newcomers.
