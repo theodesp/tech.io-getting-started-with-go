@@ -1,0 +1,19 @@
+title : Go template
+
+# Table of content
+plan:
+  - title: Welcome # Set the page title (only displayed if your contribution has several pages)
+    statement: markdowns/welcome.md # Set the file path to the page content
+#  - title: Another Page
+#    statement: markdowns/another-page.md
+
+
+# Settings for your programming projects and the associated Docker images
+projects:
+  go:
+    root: /project # Set the root path to your Go project
+
+    # Set the docker image. This image runs JUnit tests using this syntax:
+    # @[Code Editor Title]({"stubs": ["EditorFile1.go", "EditorFile2.go", ...], "command": "go test -run TestName"})
+    # More details here: https://github.com/TechDotIO/golang-godep-runner
+    runner: techio/golang-godep-runner:1.1.0-go-1.8

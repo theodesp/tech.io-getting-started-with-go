@@ -1,0 +1,14 @@
+{
+    "ImportPath": "github.com/kr/hk",
+    "GoVersion": "go1.6",
+    "Deps": [
+        {
+            "ImportPath": "code.google.com/p/go-netrc/netrc",
+            "Rev": "28676070ab99"
+        },
+        {
+            "ImportPath": "github.com/kr/binarydist",
+            "Rev": "3380ade90f8b0dfa3e363fd7d7e941fa857d0d13"
+        }
+    ]
+}
