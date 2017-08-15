@@ -40,7 +40,7 @@ name, money := "Theo", 1000
 -[ ] complex32
 -[x] float32
 
-?[2 . What is the value of i after this statement?: var c complex128]
+?[2 . What is the value of **c** after this statement?: `var c complex128`]
 -[ ] nil
 -[ ] (0,0i)
 -[ ] (0.0+0.0i)
