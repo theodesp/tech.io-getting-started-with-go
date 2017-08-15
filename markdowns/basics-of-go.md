@@ -34,5 +34,17 @@ you can also use that for multiple declarations and assignments:
 name, money := "Theo", 1000
 ```
 
+?[1. Which of the following are valid types in Go?]
+-[x] int
+-[x] int32
+-[ ] complex32
+-[x] float32
+
+?[2 . What is the value of i after this statement?: var c complex128]
+-[ ] nil
+-[ ] (0,0i)
+-[ ] (0.0+0.0i)
+-[x] (0+0i)
+
 Functions Declarations
 ====
