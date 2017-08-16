@@ -21,7 +21,7 @@ This will create a local Point variable that is by default set to zero.
 You can also initialize using the shorthand notation:
 
 ```go
-c := new(Circle) // use of new keyword
+c := new(Point) // use of new keyword
 ```
 
 This allocates memory for all the fields, sets each of them to their zero value and returns a pointer. (*Circle)
@@ -34,7 +34,26 @@ c := Point{x: 1 , y: 2}
 
 Fields and Methods
 ===
+Once you have a struct instance you can access its fields using the dot `.` operator:
 
+```go
+fmt.PrintLn(c.x) // 1
+c.x = 10
+fmt.PrintLn(c.x) // 10
+```
+
+We can enhance the `Point` struct by defining a `method` which is a special type of function:
+
+```go
+func (c *Point) update(x int, y int) {
+  c.x = x
+  c.y = y
+}
+
+c := Point{0, 5}
+c.update(2, 3)
+fmt.PrintLn(c) // {2,3}
+```
 
 Interfaces
 ===
