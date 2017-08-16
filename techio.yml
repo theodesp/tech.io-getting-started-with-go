@@ -7,7 +7,7 @@ plan:
   - title: Basics of Go
     statement: markdowns/basics-of-go.md
   - title: Structs and interfaces
-    statement: markdowns/basics-of-go.md
+    statement: markdowns/structs-and-interfaces.md
   - title: Concurrency and Goroutines
     statement: markdowns/concurrency-and-goroutines.md
   - title: Next steps
