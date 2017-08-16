@@ -71,3 +71,17 @@ s := Square{0, 0, 5, 5}
 fmt.Println(s.area()) // 25
 ```
 
+Quiz time
+===
+?[What's the difference between a method and a function?]
+-[x] A method is a special kind of function
+-[ ] A function is a special kind of method
+-[ ] There is no difference
+-[ ] Its apples and oranges
+
+?[How can a type implement an interface in Go?]
+-[ ] Using the `extends` keyword and defining all of its methods
+-[ ] Using the `implements` keyword and defining all of its methods
+-[x] By defining all of its methods
+-[ ] By defining some of its methods
+
