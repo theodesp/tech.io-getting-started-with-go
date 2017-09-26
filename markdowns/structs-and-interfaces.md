@@ -24,7 +24,7 @@ You can also initialize using the shorthand notation:
 c := new(Point) // use of new keyword
 ```
 
-This allocates memory for all the fields, sets each of them to their zero value and returns a pointer. (*Circle)
+This allocates memory for all the fields, sets each of them to their zero value and returns a pointer. (*Point)
 
 If you would like to initialize the fields with a different value you can do it like that:
 
